@@ -1,0 +1,68 @@
+.header-logo {
+  height: 5vmin;
+  pointer-events: none;
+  margin: 5px;
+}
+
+header {
+  float: left;
+  width: 100%;
+  background-color: fuchsia;
+  min-height: 10vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+main {
+  background-color: lightgray;
+  color: darkslategrey;
+  font-size: calc(10px + 2vmin);
+}
+
+main h1 {
+  margin-top: 0;
+}
+
+main .box {
+  background-color: white;
+  border: 1px solid darkslategrey;
+  box-shadow: 5px deeppink;
+  max-width: 300px;
+  max-height: 300px;
+  margin: 20px;
+}
+
+main .box h2 {
+  color: white;
+  font-weight: bolder;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  margin: 0;
+}
+
+main .box p {
+  padding: 10px;
+}
+
+main :link,
+main :visited {
+  color: darkslategrey;
+  text-decoration: none;
+}
+
+
+footer {
+  float: left;
+  width: 100%;
+  background-color: fuchsia;
+  min-height: 10vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+footer :link,
+footer :visited {
+  color: white;
+  text-decoration: none;
+}
