@@ -9,7 +9,8 @@ export default function App() {
 	return (
 		<div className="App">
 			<header>
-				<img src={logo} className="header-logo" alt="PunHouse" /> PunHouse
+				<img src={logo} className="header-logo" alt="PunHouse" /> 
+				<span>PunHouse</span>
 			</header>
 
 			<Router>
@@ -20,9 +21,11 @@ export default function App() {
             </Router>
 
 			<footer>
+				<span>
 				<a className="App-link" href="https://pun.cool" target="_blank" rel="noopener noreferrer">
 					Watch some pun competition videos!
 				</a>
+				</span>
 			</footer>
 		</div>
 	);
